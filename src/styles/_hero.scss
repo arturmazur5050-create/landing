@@ -73,12 +73,16 @@
     .hero__info {
         flex-direction: column;
         align-items: center;
+        
     }
 
     .hero__content {
+        padding-top: 44px;
         align-items: center;
         text-align: center;
         width: 100%;
+        
+      
     }
 
     .hero__img {

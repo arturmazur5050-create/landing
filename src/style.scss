@@ -17,9 +17,9 @@ ol {
 
 .top-section {
   background: linear-gradient(180deg, #f8e6e6 0%, #edabab 100%);
-  border-radius: 200px;
-  padding-bottom: 80px;
-   
+ border-radius: 0 0 200px 200px;
+  padding-bottom:80px; 
+
 }
 
 a {
@@ -39,10 +39,10 @@ body {
 
 }
 
-.container--wide{
- margin: 0 auto;
+.container--wide {
+  margin: 0 auto;
   max-width: 1300px;
-    padding: 0 15px;
+  padding: 0 15px;
 }
 
 .container {
