@@ -1,5 +1,9 @@
-import './style.scss'
+import Swiper from 'swiper';
+import { Pagination } from 'swiper/modules';
 
+import 'swiper/css';
+import 'swiper/css/pagination';
+import './style.scss';
 
 const burger = document.querySelector('.burger');
 const menuList = document.querySelector('.menu__list');
@@ -9,7 +13,27 @@ burger.addEventListener('click', () => {
   menuList.classList.toggle('active');
 });
 
+const swiper = new Swiper('.mySwiper', {
+  modules: [Pagination],
 
+  slidesPerView: 1,
+  slidesPerGroup: 1,
+  spaceBetween: 16,
 
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
 
+  breakpoints: {
+    600: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
 
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 24,
+    },
+  },
+});

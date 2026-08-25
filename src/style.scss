@@ -32,7 +32,7 @@ a {
 // }
 
 body {
-  background: #ffffff;
+  background: rgba(255, 186, 186, 0.158);
   color: black;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -55,3 +55,4 @@ body {
 @import './styles/_menu';
 @import './styles/_hero';
 @import './styles/_collection';
+@import './styles/_sellers';

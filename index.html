@@ -10,6 +10,7 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css" />
 
   <title>Bakery</title>
 </head>
@@ -17,7 +18,6 @@
 <body>
 
   <div class="top-section">
-
 
     <header class="header">
       <div class="container--wide">
@@ -93,30 +93,129 @@
             <h3 class="collection__text">See Collection</h3>
             <h2 class="collection__title">OUR FINE HOME MADE CHOCOLATES</h2>
           </div>
-        <div class="collection__products">
-        <div class="collection__product">
-          <img class="collection__img" src="/cake1.png" alt="">
-           <p>There are some redeming factors in greeking text</p>
+          <div class="collection__products">
+            <div class="collection__product">
+              <img class="collection__img" src="/cake1.png" alt="">
+              <p>There are some redeming factors in greeking text</p>
+            </div>
+            <div class="collection__product">
+              <img class="collection__img" src="/cake2.png" alt="">
+              <p>There are some redeming factors in greeking text</p>
+            </div>
+            <div class="collection__product">
+              <img class="collection__img" src="/cake3.png" alt="">
+              <p>There are some redeming factors in greeking text</p>
+            </div>
+          </div>
         </div>
-        <div class="collection__product">
-          <img class="collection__img" src="/cake2.png" alt="">
-           <p>There are some redeming factors in greeking text</p>
-        </div>
-        <div class="collection__product">
-          <img class="collection__img" src="/cake3.png" alt="">
-           <p>There are some redeming factors in greeking text</p>
-        </div>
+      </div>
+
+      <div class="sellers">
+        <div class="container">
+          <div class="sellers__top">
+            <h1 class="sellers__title">OUR BEST SELLERS</h1>
+            <a class="sellers__all" href="#">See All</a>
+          </div>
+
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide">
+                <div class="sellers__cards">
+                  <img src="pirog1.png" alt="" class="sellers__img">
+                  <div class="sellers__info">
+                    <h2 class="sellers__swiper-title">3-tier red velvet cake</h2>
+                    <p class="sellers__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    <div class="sellers__price">
+                      <p class="price__text">45.90 €</p>
+                      <button class="sellers__btn">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="sellers__cards">
+                  <img src="pirog1.png" alt="" class="sellers__img">
+                  <div class="sellers__info">
+                    <h2 class="sellers__swiper-title">3-tier red velvet cake</h2>
+                    <p class="sellers__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    <div class="sellers__price">
+                      <p class="price__text">45.90 €</p>
+                      <button class="sellers__btn">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="sellers__cards">
+                  <img src="pirog1.png" alt="" class="sellers__img">
+                  <div class="sellers__info">
+                    <h2 class="sellers__swiper-title">3-tier red velvet cake</h2>
+                    <p class="sellers__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    <div class="sellers__price">
+                      <p class="price__text">45.90 €</p>
+                      <button class="sellers__btn">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="sellers__cards">
+                  <img src="pirog1.png" alt="" class="sellers__img">
+                  <div class="sellers__info">
+                    <h2 class="sellers__swiper-title">3-tier red velvet cake</h2>
+                    <p class="sellers__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    <div class="sellers__price">
+                      <p class="price__text">45.90 €</p>
+                      <button class="sellers__btn">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="sellers__cards">
+                  <img src="pirog1.png" alt="" class="sellers__img">
+                  <div class="sellers__info">
+                    <h2 class="sellers__swiper-title">3-tier red velvet cake</h2>
+                    <p class="sellers__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    <div class="sellers__price">
+                      <p class="price__text">45.90 €</p>
+                      <button class="sellers__btn">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="sellers__cards">
+                  <img src="pirog1.png" alt="" class="sellers__img">
+                  <div class="sellers__info">
+                    <h2 class="sellers__swiper-title">3-tier red velvet cake</h2>
+                    <p class="sellers__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    <div class="sellers__price">
+                      <p class="price__text">45.90 €</p>
+                      <button class="sellers__btn">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+             <div class="swiper-pagination"></div>
+          </div>
+        
+
         </div>
       </div>
     </div>
   </main>
 
-</body>
-
-</html>
-
-
-<script type="module" src="/src/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+  <script type="module" src="/src/main.js"></script>
 </body>
 
 </html>
