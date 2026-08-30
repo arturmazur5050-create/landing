@@ -19,12 +19,37 @@ const swiper = new Swiper('.mySwiper', {
   slidesPerView: 1,
   slidesPerGroup: 1,
   spaceBetween: 16,
-
+  loop: true, 
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
   },
 
+  breakpoints: {
+    600: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 24,
+    },
+  },
+});
+
+const articlesSwiper = new Swiper('.articlesSwiper', {
+  modules: [Pagination],
+
+  slidesPerView: 1,
+  slidesPerGroup: 1,
+  spaceBetween: 16,
+  loop: true, 
+
+  pagination: {
+    el: '.articlesSwiper .swiper-pagination',
+    clickable: true,
+  },
   breakpoints: {
     600: {
       slidesPerView: 2,
