@@ -60,7 +60,7 @@
 }
 
 .articles__slide {
-    margin-bottom: 32px;
+    margin-bottom: 42px;
 
 }
 
@@ -71,4 +71,12 @@
     --swiper-pagination-bullet-inactive-opacity: 0.4;
     --swiper-pagination-bullet-size: 12px;
     --swiper-pagination-bullet-horizontal-gap: 2px;
+}
+
+@media(max-width:480px){
+    .articles__title{
+        margin-bottom: 48px;
+        text-align: center;
+        font-size: 38px;
+    }
 }
