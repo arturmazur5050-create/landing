@@ -62,3 +62,24 @@ const articlesSwiper = new Swiper('.articlesSwiper', {
     },
   },
 });
+
+const customersSwiperSwiper = new Swiper('.customersSwiper', {
+  modules: [Pagination],
+
+  slidesPerView: 1,
+  slidesPerGroup: 1,
+  spaceBetween: 16,
+  loop: true,
+
+  pagination: {
+    el: '.customersSwiper .swiper-pagination',
+    clickable: true,
+  },
+
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 66,
+    },
+  },
+});
