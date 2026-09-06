@@ -79,3 +79,9 @@
     margin-bottom: 50px;
    }
 }
+
+@media(max-width:434px){
+    .customers__title{
+        max-width: 350px;
+    }
+}
